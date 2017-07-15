@@ -1,0 +1,31 @@
+{
+  "name": "@image/packer",
+  "version": "1.0.5",
+  "description": "image packer",
+  "keywords": [
+    "spritesheet",
+    "packer",
+    "texture-packer",
+    "image-packer",
+    "atlas-packer"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "tvolodimir"
+  },
+  "es2015": "./lib/index.js",
+  "module": "./lib.es2015/index.js",
+  "main": "./lib/index.js",
+  "jsnext:main": "./lib.es2015/index.js",
+  "type": "./lib/index",
+  "typings": "./lib/index",
+
+  "scripts": {
+    "build": "tsc -p . && tsc -p tsconfig.es2015.json",
+    "postversion": "",
+    "preversion": ""
+  },
+  "devDependencies": {
+    "typescript": "^2.4.1"
+  }
+}

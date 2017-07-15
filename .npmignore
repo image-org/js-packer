@@ -1,0 +1,9 @@
+/*
+/.*
+!src/
+!lib/
+!lib.es2015/
+!package.json
+!README.md
+!CHANGELOG.md
+!LICENSE
